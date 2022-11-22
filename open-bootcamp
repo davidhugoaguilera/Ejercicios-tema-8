@@ -1,0 +1,36 @@
+public class main {
+    public static void main(String[] args {
+    }
+        Persona persona = new persona();
+        persona.edad = “35”;
+        persona.nombre = “David”;
+        persona.telefono = “158422172”;
+        system.out.println(persona.edad);
+        system.out.println(persona.nombre);
+        system.out.println(persona.telefono);
+}
+
+class Persona {
+    private Int edad;
+    private String nombre;
+    private Int telefono;
+    
+    public void setEdad(Int edad) {
+        this.edad = edad;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setTelefono(Int telefono) {
+        this.telefono = telefono;
+    }
+    public Int getEdad() {
+        return this.edad;
+    }
+    public String getNombre() {
+        return this.nombre;
+    }
+    public Int getTelefono() { 
+        return this.telefono;
+    }
+}
